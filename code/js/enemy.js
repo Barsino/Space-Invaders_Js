@@ -64,7 +64,7 @@ class EnemyPool
 
         this.bulletsPool = new BulletPool(this, 5);
 
-        this.fireRate = 1;
+        this.fireRate = 3.5;
         this.fireRateAux = 0;
         this.cannonOffset = {x: 20, y: 40};
 

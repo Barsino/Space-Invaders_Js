@@ -22,7 +22,7 @@ class Player
         this.fireRateAux = 0;
         this.cannonOffset = {x: 15, y: -5};
 
-        this.lives = 1;
+        this.lives = 3;
         this.active = true;
 
         this.score = 0;
