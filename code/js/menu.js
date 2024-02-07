@@ -18,13 +18,13 @@ function Init()
     ctx = canvas.getContext("2d");
 
     enemyAsset = new Image();
-    enemyAsset.src = "../../assets/Enemy_Sprite.png";
+    enemyAsset.src = "../../assets/sprites/Enemy_Sprite.png";
 
     enemy1Asset = new Image();
-    enemy1Asset.src = "../../assets/Enemy1_Sprite.png";
+    enemy1Asset.src = "../../assets/sprites/Enemy1_Sprite.png";
 
     enemy2Asset = new Image();
-    enemy2Asset.src = "../../assets/Enemy2_Sprite.png";
+    enemy2Asset.src = "../../assets/sprites/Enemy2_Sprite.png";
 
     if(!localStorage.getItem("newhiScore"))
     {
