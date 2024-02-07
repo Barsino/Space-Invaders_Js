@@ -120,7 +120,7 @@ function Loop()
     
     // Draw the game elements
     Draw();
-    DrawStats(ctx, deltaTime, fps);
+    //DrawStats(ctx, deltaTime, fps);
 
     CheckState();
 }
