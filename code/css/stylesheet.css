@@ -1,0 +1,16 @@
+#canvas-container{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#playButton{
+    position: absolute;
+    top: 160px;
+    left: 244px;
+    width: 70px;
+    height: 20px;
+    opacity: 0;
+    z-index: 1;
+}
